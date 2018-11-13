@@ -1,8 +1,9 @@
 package com.tip.travel.common.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Travel {
+public class Travel implements Serializable {
     private Long id;
     private Long ownerId;
     private String name;
