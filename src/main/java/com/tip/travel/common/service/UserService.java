@@ -10,5 +10,5 @@ public interface UserService {
 
     Boolean cacheUserToken(UserBasicInfo userBasicInfo);
 
-    List<UserBasicInfo> checkLogin(Long userId);
+    Long checkLogin(String token);
 }
